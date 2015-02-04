@@ -1,0 +1,18 @@
+<%= form_for @event_tracker do |t| %>
+<%= t.label :date %>
+<%= t.text_field :date %>
+</br>
+<%= t.label :description %>
+<%= t.text_area :description %>
+</br>
+<%= t.label :requires_ID %>
+<%= t.text_field :requires_ID %>
+</br>
+<%= t.label :capacity %>
+<%= t.text_field :capacity %>
+</br>
+<%= t.label :directions %>
+<%= t.text_field :directions %>
+</br>
+<%= t.submit "Create Your Super Awesome Event!" %>
+<%end%>
